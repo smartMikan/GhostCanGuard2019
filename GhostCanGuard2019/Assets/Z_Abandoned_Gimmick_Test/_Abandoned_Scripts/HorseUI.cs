@@ -1,7 +1,7 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
 
-public class HourseUI : MonoBehaviour
+public class HorseUI : MonoBehaviour
 {
     [SerializeField]
     Button startButton;
@@ -11,7 +11,7 @@ public class HourseUI : MonoBehaviour
     Horse hourse;
     [SerializeField]
     Image panel;
-    // Start is called before the first frame update
+    
     void Start()
     {
         if (startButton == null)

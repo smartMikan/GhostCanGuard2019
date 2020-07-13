@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
+/// <summary>
+/// スローモーションBGM
+/// </summary>
 [RequireComponent(typeof(AudioSource))]
 public class StopBGMManager : MonoBehaviour
 {
     public AudioSource BGM;
-    // Start is called before the first frame update
+   
     void Awake()
     {
         BGM = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         switch (StopSystem.Instance.currentstate)

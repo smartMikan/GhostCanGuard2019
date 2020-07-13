@@ -56,7 +56,7 @@ public class StopSystem : SingletonMonoBehavior<StopSystem>
     public bool IfSystemPause { get; private set; }
     public PauseState currentstate;
     private float currentTimescale;
-    public bool stopped { get; private set; } = false;
+    public bool stopped { get; private set; }
 
     bool getTrigger = false;
 

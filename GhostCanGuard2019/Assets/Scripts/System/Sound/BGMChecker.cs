@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// BGMInstanceを確報
+/// </summary>
 public class BGMChecker : MonoBehaviour
 {
     public GameObject BGM;
